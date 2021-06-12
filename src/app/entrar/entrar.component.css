@@ -1,0 +1,31 @@
+#img-bg{
+    background-image: url('https://i.imgur.com/wIeMbcM.jpg');
+    
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    #img-cad{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .glass{
+        background: rgba( 255, 255, 255, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 20.0px );
+        -webkit-backdrop-filter: blur( 20.0px );
+        border-radius: 10px;
+        width: 200px;
+        height: 550px;
+    }
+    
+    .font-desc{
+        font-size: 50px;
+    }
+    
+    
+      

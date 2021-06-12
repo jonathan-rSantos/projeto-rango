@@ -1,0 +1,46 @@
+<div class="container-fluid" id="img-bg">
+
+    <div class="row d-flex justify-content-center">
+
+
+        <div class="col-md-6 glass m-5">
+            <h1 class="text-center mb-3 py-4 font-desc mt-5"> Entrar</h1>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                        <label for="usuario">Usuário</label>
+                        <input [(ngModel)]='userLogin.usuario' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input [(ngModel)]="userLogin.senha" class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+                    </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-danger button-purple mt-4 m-4" routerLink='/home'>Cancelar</button>
+                <button type="submit" class="btn btn-success button-green mt-4 m-4"  (click)='entrar()' routerLink='/inicio'>Entrar</button>
+            </div>
+
+            <hr class="mt-4 mb-4">
+            <p class="text-center mb-5
+            ">
+            Não tem uma conta? <a routerLink='/cadastrar'>Cadastre-se</a>
+            </p>
+
+                </div>
+            </div>
+
+        </div>
+
+      <!--   <div class="col-md-6 mr-4 d-flex align-items-center" >
+            <h3 class="font-desc">  <br> Rango pratodes <br> rede social
+                voltada para: <br> o combate a fome
+                <br> e agricultura  sustentavel!</h3>
+        </div>
+     -->
+    </div>
+
+    </div>

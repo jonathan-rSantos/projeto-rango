@@ -1,0 +1,34 @@
+<nav  class="navbar navbar-expand-lg navbar-light" style="background-color: #8dba45" >
+  <div class="d-flex align-items-center ">
+    <img  src="{{foto}}" alt="Logotipo" width="70px" height="70px" 
+    class=" rounded-circle"   >
+    <p class="m-0 font-weight-bold text-white nav-link fs-16">{{nome}}</p>
+</div>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+   
+     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+       <ul class="navbar-nav mr-auto d-flex align-items-center">  <!-- mr-auto joga a direia/ ml-auto a esquerda/ m-auto centro -->
+           <!-- BOTAO DE EDITAR-->
+        <li>
+          <a [routerLink]="['/user-edit', id]">
+            <i class="mt-2 fa fa-pencil-square-o text-white" aria-hidden="true"></i>
+          </a>
+        </li>
+        <!-- BOTAO DE EDITAR-->
+                  
+       </ul>
+ 
+       <ul class="navbar-nav ml-auto d-flex align-items-center">
+         <li class="nav-item pl-3 ">
+             <a (click)='sair()' class="m-0 font-weight-bold nav-link btn-entrar  fs-16" routerLink='/sair'>Sair<i class="fa fa-sign-out ml-2" aria-hidden="true"></i> </a>
+
+            </li>
+           
+       </ul>
+
+        
+     </div>
+   </nav>
+ 

@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+.button-purple{
+    background-color:#61156B;
+    color: white;
+    width: 100px;
+    height:auto;
+  }
+  .button-purple:hover{
+      background-color:#895091;
+      
+  }
+  
+  .button-green{
+      background-color:#8dba45;
+      color: white;
+      width: 100px;
+      height:auto;
+    }
+    .button-green:hover{
+        background-color:#567427;
+        
+    }
+
+    a{
+      color: #895091;
+      text-decoration: none;
+    }
+    .button-t{
+        width: 100px;
+        height:auto; 
+    }
+    .purple{
+        color: #895091;
+
+    }

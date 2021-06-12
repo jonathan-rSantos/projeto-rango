@@ -1,0 +1,30 @@
+.fs-16
+{
+    font-size: 16pt;
+}
+
+a{
+    cursor: pointer;
+}
+
+.btn-entrar {
+    border: 2px solid #fff;
+    padding: .375rem .75rem;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #61156b !important;
+    transition: 0.3s background-color linear;
+    background-color: #fff;
+  }
+  
+  .btn-entrar:hover {
+    background-color: #fff;
+    color: #8dba45 !important;
+    cursor: pointer;
+    border: 2px solid #fff;
+  }
+  
