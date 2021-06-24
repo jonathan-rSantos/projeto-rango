@@ -51,8 +51,8 @@
             <p class="card-text"><small class="text-muted">{{item.data | date: 'dd/mm/yyyy'}} ás {{item.data | date:
                 'HH:mm'}}</small> </p>
 
-            <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
-            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
+            <a  [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href=""><span style="color: #8dba45;">Editar</span></a>
+            <a  [routerLink]="['/postagem-delete', item.id]" class="text-danger" href=""><span style="color: #540c5e;">Apagar</span></a>
 
 
           </div>

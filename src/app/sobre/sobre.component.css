@@ -16,5 +16,44 @@ text-align: justify;
 
 .bordaverde{
 
-    border-color: #8dba45;;
+    border-color: #8dba45;
 }
+.saiba-mais{
+    color: #61156b;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .saiba-mais::after {
+    content: '';
+    display: table;
+    width: 0px;
+    height: 2px;
+    background-color: #61156b;
+    transition: .4s width linear;
+  }
+  
+  .saiba-mais:hover::after {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  
+  a:link, a:visited {
+	text-decoration: none;
+    color:#61156b;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 20px;
+	}
+a:hover {
+	text-decoration: none; 
+	color: #61156b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+	}
+a:active {
+	text-decoration: none;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 20px;
+	}
